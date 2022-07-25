@@ -1,6 +1,6 @@
 # Etch-a-Sketch
 
-Drawing table made with JavaScript. Supports user inputed table grid, restarting, changing color of background and pen.
+Drawing table made with JavaScript. Supports user inputed size of table grid, restarting, changing color of background and pen.
 
 ### How it looks
 
