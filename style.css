@@ -1,0 +1,96 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.wrap{
+    display: flex;
+    flex-wrap:wrap ;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 750px;
+    height: 750px;
+    display: grid;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+.grid:hover{
+    transition: 1s;
+    background-color: gray;
+}
+.settings{
+    position: relative;
+    left: -200px;
+    height: fit-content;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    padding: 50px;
+    gap: 50px;
+    
+}
+#color, #bgcolor{
+    cursor: pointer;
+    width: 65px;
+    height: 65px;
+    outline: none;
+    border: none;
+    background-color: transparent;   
+}
+#text{
+    border-radius: 5px;
+    height: 35px;
+    width: 240px;
+    outline: none;
+    border: 1px solid black;
+    font-size: 1.1rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    display: none;
+}
+#text::placeholder{
+    font-size: 1rem;
+}
+.btn, #submit{
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.btn:hover, #submit:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    
+}
+#submit{
+    width: 40%;
+}
+.size{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+    align-items: center;
+}
+.colors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color_block{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+}
